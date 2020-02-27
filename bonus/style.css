@@ -1,0 +1,63 @@
+/* REGOLE GENERALI */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  text-align: center;
+}
+
+h1 {
+  padding: 20px;
+}
+
+h3 {
+  padding: 20px;
+}
+
+img {
+  height: 200px;
+  margin: 10px;
+}
+
+.container {
+  margin-bottom: 50px;
+}
+
+/* REGOLE TERZA SEZIONE */
+#why,
+#how {
+  background-color: #f9f9f9;
+}
+
+#why img {
+  background-color:#428bca;
+  border-radius:50%;
+  padding:30px
+}
+
+
+@media screen and (max-width: 568px) {
+  body {
+    font-size: 1.5em;
+  }
+
+  img {
+    width: 70%;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 569px) and (max-width: 768px) {
+  body {
+    font-size: 1.3em;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  body {
+    font-size: 1.2em;
+  }
+}
