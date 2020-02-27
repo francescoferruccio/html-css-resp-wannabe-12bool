@@ -37,3 +37,21 @@ img {
   border-radius:50%;
   padding:30px
 }
+
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 1.5em;
+  }
+
+  img {
+    width: 70%;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  body {
+    font-size: 1.2em;
+  }
+}
